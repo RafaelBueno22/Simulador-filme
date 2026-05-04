@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimuladorPedido</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Container principal da página-->
+    <div class " container ">
+      <h1> <img src="Asserts/prime.png" > </h1>
+     <!--Subtitulo-->
+     <p class= "subtitulo">
+       
+     </p>
+     <!-- Área que contém todos os produtos -->
+    <div class="cards"> 
+        <!--CARD = UM PRODUTO-->
+        <!--Usamos label para que clicar no card marque checkbox-->
+        <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="Sunshine">
+                 <!--Descrição-->
+                <!--Imagem do produto-->
+                <img src="Asserts/Sunshine.png.jpg" alt="Sunshine">
+                <!--Nome do produto-->
+                <h1> Sunshine<br></h1>
+                <!--Preço-->
+                <span>  R$ 35.00 </span>
+        </label>
+
+         <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="Hereditário">
+                <!--Descrição-->
+                <!--Imagem do produto-->
+                <img src="Asserts/Hereditario.png" alt="Hereditário">
+                <!--Nome do produto-->
+                <h1> Hereditário</h1>
+                <!--Preço-->
+                <span>  R$ 30.00 </span>
+                
+        </label>
+        <!-- nuggets-->
+
+         <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="Seven">
+                <!--Descrição-->
+                <!--Imagem do produto-->
+                <img src="Asserts/SEVEN.PNG" alt="Seven">
+                <!--Nome do produto-->
+                <h1> Seven </h1>
+                <!--Preço-->
+                <span>  R$ 30.00 </span>
+        </label>
+
+         <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="Duna">
+                <!--Descrição-->
+                <!--Imagem do produto-->
+                <img src="Asserts/Duna.png" alt="Duna">
+                <!--Nome do produto-->
+                <h1>Duna 2</h1>
+                <!--Preço-->
+                <span>  R$ 40.00 </span>
+        </label>
+
+          <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="Sociedade">
+                <!--Descrição-->
+                <!--Imagem do produto-->
+                <img src="Asserts/sociedade.png" alt="Sociedade dos Poetas Mortos">
+                <!--Nome do produto-->
+                <h1> Sociedade dos Poetas Mortos</h1>
+                <!--Preço-->
+                <span>  R$ 35.00 </span>
+        </label>
+
+          <label class="card">
+            <!--Checkbox que identifica se o item esta selecionado-->
+            <input type="checkbox" id="Interestelar">
+                <!--Descrição-->
+                <!--Imagem do produto-->
+                <img src="Asserts/Interestelar.jpg" alt="Interestelar">
+                <!--Nome do produto-->
+                <h1> Interestellar</h1>
+                <!--Preço-->
+                <span>  R$ 35.00 </span>
+        </label>
+
+    </div>
+    <!--botao que chama a funcao calcular para somar o pedido-->
+    <button onclick="calcular()"> <h2>Calcular Pedido</h2></button>
+    <!--area de resultado do pedido-->
+    <div id="resultado" class="resultado"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
